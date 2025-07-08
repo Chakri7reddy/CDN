@@ -1,0 +1,10 @@
+service : {
+  upload_file : (text, vec nat8) -> ();
+  get_file: (text) -> (vec nat8);
+<<<<<<< HEAD
+  list_files:() -> (vec text);
+=======
+ list_files:() -> (vec text);
+ delete_file: (text) -> ();
+>>>>>>> e017c08fad1dff1f7f6d282fc12e4aa4ed3b9bef
+};
